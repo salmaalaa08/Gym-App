@@ -1,0 +1,14 @@
+/Users/salmaalaa/Backend/GymApp/GymApp.DAL/bin/Debug/net10.0/GymApp.DAL.deps.json
+/Users/salmaalaa/Backend/GymApp/GymApp.DAL/bin/Debug/net10.0/GymApp.DAL.runtimeconfig.json
+/Users/salmaalaa/Backend/GymApp/GymApp.DAL/bin/Debug/net10.0/GymApp.DAL.dll
+/Users/salmaalaa/Backend/GymApp/GymApp.DAL/bin/Debug/net10.0/GymApp.DAL.pdb
+/Users/salmaalaa/Backend/GymApp/GymApp.DAL/obj/Debug/net10.0/GymApp.DAL.csproj.AssemblyReference.cache
+/Users/salmaalaa/Backend/GymApp/GymApp.DAL/obj/Debug/net10.0/GymApp.DAL.GeneratedMSBuildEditorConfig.editorconfig
+/Users/salmaalaa/Backend/GymApp/GymApp.DAL/obj/Debug/net10.0/GymApp.DAL.AssemblyInfoInputs.cache
+/Users/salmaalaa/Backend/GymApp/GymApp.DAL/obj/Debug/net10.0/GymApp.DAL.AssemblyInfo.cs
+/Users/salmaalaa/Backend/GymApp/GymApp.DAL/obj/Debug/net10.0/GymApp.DAL.csproj.CoreCompileInputs.cache
+/Users/salmaalaa/Backend/GymApp/GymApp.DAL/obj/Debug/net10.0/GymApp.DAL.dll
+/Users/salmaalaa/Backend/GymApp/GymApp.DAL/obj/Debug/net10.0/refint/GymApp.DAL.dll
+/Users/salmaalaa/Backend/GymApp/GymApp.DAL/obj/Debug/net10.0/GymApp.DAL.pdb
+/Users/salmaalaa/Backend/GymApp/GymApp.DAL/obj/Debug/net10.0/GymApp.DAL.genruntimeconfig.cache
+/Users/salmaalaa/Backend/GymApp/GymApp.DAL/obj/Debug/net10.0/ref/GymApp.DAL.dll
