@@ -1,21 +1,39 @@
 using GymApp.BLL;
 using GymApp.DAL.Repositories;
 using GymApp.DAL.Context;
-using DAL.Repositories;
+using Microsoft.EntityFrameworkCore;
+using GymApp.DAL.Contracts;
+using GymApp.DAL.Models;
+using GymApp.BLL.Services;
 
 var builder = WebApplication.CreateBuilder(args);
+// IConfiguration configuration = builder.Configuration;
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddScoped<PlansService>();
+// builder.Services.AddScoped<PlansService>();
 // builder.Services.AddScoped<PlansRepository>();
 // builder.Services.AddScoped<PlansMockRepository>();
 // builder.Services.AddScoped<GymDbContext>();
 // builder.Services.AddScoped<IPlansRepository, PlansMockRepository>();
-builder.Services.AddScoped<IPlansRepository, PlansRepository>();
+// builder.Services.AddScoped<IPlansRepository, PlansRepository>();
+
+// builder.Services.AddScoped<IGenericRepository<Plan>, GenericRepository<Plan>>();
+builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+builder.Services.AddScoped<IMemberRepository, MemberRepository>();
+
 builder.Services.AddScoped<IPlansService, PlansService>();
-builder.Services.AddScoped<GymDbContext>();
+builder.Services.AddScoped<IMemberService, MemberService>();
+
+// builder.Services.AddScoped<GymDbContext>();
+builder.Services.AddDbContext<GymDbContext>(options =>
+{
+    // options.UseSqlServer(
+    //                     "Server=localhost,1433;Database=GymAppDb;User Id=sa;Password=saLma@287;TrustServerCertificate=True;"
+    //     );  
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+});
 
 var app = builder.Build();
 

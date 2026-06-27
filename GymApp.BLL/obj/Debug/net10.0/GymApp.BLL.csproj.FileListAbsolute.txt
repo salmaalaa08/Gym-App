@@ -13,3 +13,4 @@
 /Users/salmaalaa/Backend/GymApp/GymApp.BLL/obj/Debug/net10.0/refint/GymApp.BLL.dll
 /Users/salmaalaa/Backend/GymApp/GymApp.BLL/obj/Debug/net10.0/GymApp.BLL.pdb
 /Users/salmaalaa/Backend/GymApp/GymApp.BLL/obj/Debug/net10.0/ref/GymApp.BLL.dll
+/Users/salmaalaa/Backend/GymApp/GymApp.BLL/obj/Debug/net10.0/GymApp.BLL.sourcelink.json

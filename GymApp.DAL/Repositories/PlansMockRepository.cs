@@ -1,9 +1,8 @@
-using GymApp.DAL.Models;
 using GymApp.DAL.Repositories;
 
 namespace DAL.Repositories;
 
-public class PlansMockRepository : IPlansRepository
+public class PlansMockRepository // : IPlansRepository
 {
     private static List<Plan> _plans = new List<Plan>
     {

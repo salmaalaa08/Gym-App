@@ -1,6 +1,3 @@
-using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using GymApp.DAL.Models;
 namespace GymApp.DAL.Context.Configurations;
 
 public class PlanCofiguration : IEntityTypeConfiguration<Plan>

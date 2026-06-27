@@ -1,5 +1,5 @@
-using GymApp.DAL.Repositories;
 using GymApp.DAL.Models;
+using GymApp.DAL.Contracts;
 
 namespace GymApp.BLL;
 
@@ -13,9 +13,9 @@ public class PlansService : IPlansService
     // private readonly PlansMockRepository _plansRepository;
     // public PlansService(PlansMockRepository plansRepository) => _plansRepository = plansRepository;
 
-    private readonly IPlansRepository _plansRepository;
+    private readonly IGenericRepository<Plan> _plansRepository;
 
-    public PlansService(IPlansRepository plansRepository) => _plansRepository = plansRepository;
+    public PlansService(IGenericRepository<Plan> plansRepository) => _plansRepository = plansRepository;
 
     public async Task<IEnumerable<Plan>> PlansAsync(CancellationToken cancellationToken = default)
     {

@@ -230,3 +230,4 @@
 /Users/salmaalaa/Backend/GymApp/obj/Debug/net10.0/GymApp.pdb
 /Users/salmaalaa/Backend/GymApp/obj/Debug/net10.0/GymApp.genruntimeconfig.cache
 /Users/salmaalaa/Backend/GymApp/obj/Debug/net10.0/ref/GymApp.dll
+/Users/salmaalaa/Backend/GymApp/obj/Debug/net10.0/GymApp.sourcelink.json
